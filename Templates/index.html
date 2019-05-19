@@ -45,9 +45,9 @@
           <div class="col-md-12">
               <div class="row">
                   {% for item in mars_info.hemisphere_img_urls %}
-                  <div class="col-md-12">
-                      <div class="card text-white bg-dark" style="margin: 30px;">
-                          <img class="card-img-top" src="{{ item.img_url }}" />
+                  <div class="col-md-3 ">
+                      <div class="card text-white bg-dark" style="width: 18rem;">
+                          <img class="card-img-top img-responsive" src="{{ item.img_url }}" />
                           <div class="card-body">
                               <h3 style="color: Green">{{ item.title }}</h3>
                           </div>
